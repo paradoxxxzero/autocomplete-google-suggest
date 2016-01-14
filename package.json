@@ -1,0 +1,21 @@
+{
+  "name": "autocomplete-google-suggest",
+  "version": "1.0.0",
+  "description": "Completions from google suggestions. (Search field autocompletion)",
+  "main": "./lib/main",
+  "license": "MIT",
+  "repository": "https://github.com/paradoxxxzero/autocomplete-google-suggest",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "dependencies": {
+    "request": "^2.53.0"
+  }
+}
