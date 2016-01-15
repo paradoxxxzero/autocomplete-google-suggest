@@ -1,4 +1,5 @@
 # autocomplete-google-suggest
+![](https://api.travis-ci.org/paradoxxxzero/autocomplete-google-suggest.svg)
 
 Get Google suggestions in your atom editor
 
